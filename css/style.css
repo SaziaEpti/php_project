@@ -1,0 +1,67 @@
+/*navbar.html */
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: rgb(24,174,191);
+   height: 100px;
+}   
+ul.navbar {
+   display: flex;
+   list-style: none;
+}
+ul.navbar a {
+   text-decoration: none;
+}
+ul.navbar li {
+   padding: 0px 10px;
+   font-weight: bolder;
+   font-family: sans-serif;
+   color: white;
+}
+ul.navbar{
+   display: flex;
+}
+i.fa-solid.fa-magnifying-glass {
+   color: white;
+}
+ul.navbar li:hover {
+   color: black;
+}
+.my-info{
+   text-align: center;
+}
+.my-info:visited{
+   color: red;
+}
+.epti1:hover{
+color: goldenrod;
+}
+.epti1:active{
+   color: brown;
+}
+
+.epti2:hover{
+   color: rgb(24, 130, 84);
+   }
+.epti2:active{
+   color: brown;
+   }
+
+.epti3:hover{
+   color: rgb(138, 36, 116);
+   }
+.epti3:active{
+   color: brown;
+   }
+
+.epti4:hover{
+   color: rgb(39, 168, 177);
+  }
+.epti4:active{
+   color: brown;
+ }
